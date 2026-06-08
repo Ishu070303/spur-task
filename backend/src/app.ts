@@ -5,7 +5,9 @@ import { errorHandler } from './middleware/errorHandler';
 
 const app = express();
 
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({
+  origin: ['http://localhost:5173', 'https://spur-task-ten.vercel.app', '*'],
+}));
 app.use(express.json());
 
 app.use('/chat', chatRoutes);
