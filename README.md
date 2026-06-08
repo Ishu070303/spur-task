@@ -1,4 +1,4 @@
-# Spur Chat — AI Live Support Widget
+# Spur Chat - AI Live Support Widget
 
 A full-stack AI customer support chat widget built for the Spur founding engineer take-home assignment. Users can chat with an AI support agent for **Nova Store**, a fictional e-commerce store — asking about returns, shipping, support hours, and more.
 
